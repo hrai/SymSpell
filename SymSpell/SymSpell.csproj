@@ -35,9 +35,13 @@
  <ItemGroup>
     <None Remove="frequency_dictionary_en_82_765.txt" />
 	<None Remove="frequency_bigramdictionary_en_243_342.txt" />	
+	<None Remove="suburbs.json" />	
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="suburbs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="frequency_dictionary_en_82_765.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
